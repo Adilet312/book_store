@@ -28,12 +28,11 @@ public class ProductServlet extends HttpServlet
         {
             ArrayList<Product> products = ProductDB.getAllProducts();
             request.setAttribute("products", products);
-//            request.getRequestDispatcher("/listCustomers.jsp").forward(request, response);
         }
         catch (Exception e) 
         {
             System.out.println(e);
-        }
+        }      
         getServletContext().getRequestDispatcher("/listProducts.jsp").forward(request, response);
    
     }
