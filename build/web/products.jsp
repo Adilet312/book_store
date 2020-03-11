@@ -16,8 +16,7 @@
     <body>
         <div class="menu-header">
            <ul>
-                <li><a href="index.jsp">Home </a></li>
-                <li><a href="listProducts.jsp">List Products In Table</a></li>
+                <li><a href="index.html">Home </a></li>
                 <li><a href="products.jsp">Products </a></li>
                 <li><a href="cart.jsp">Cart</a></li>
                 <li><a href="#">Register </a></li>
@@ -31,13 +30,13 @@
                         <input type="submit" value="Add to Cart">
                     </form></div>
                 </li>
-                <li><img src="image/product1.jpg" class = "imgClass"><div class="title">Nokia $150.00
+                <li><img src="image/product2.jpg" class = "imgClass"><div class="title">Nokia $150.00
                     <form action="cart" method="post"> 
                         <input type="hidden" name="productCode" value="222">
                         <input type="submit" value="Add to Cart">
                     </form></div>
                 </li>
-                <li><img src="image/product1.jpg" class = "imgClass"><div class="title">Panasonic $50.00
+                <li><img src="image/product3.jpg" class = "imgClass"><div class="title">Panasonic $50.00
                     <form action="cart" method="post"> 
                         <input type="hidden" name="productCode" value="333">
                         <input type="submit" value="Add to Cart">
@@ -49,7 +48,7 @@
                         <input type="submit" value="Add to Cart">
                     </form></div>
                 </li>
-                <li><img src="image/product1.jpg" class = "imgClass"><div class="title">Boost $200.00
+                <li><img src="image/product4.jpg" class = "imgClass"><div class="title">Boost $200.00
                     <form action="cart" method="post"> 
                         <input type="hidden" name="productCode" value="555">
                         <input type="submit" value="Add to Cart">
@@ -61,13 +60,13 @@
                         <input type="submit" value="Add to Cart">
                     </form></div>
                 </li>
-                <li><img src="image/product1.jpg" class = "imgClass"><div class="title">Asus $240.00
+                <li><img src="image/product5.jpg" class = "imgClass"><div class="title">Asus $240.00
                     <form action="cart" method="post"> 
                         <input type="hidden" name="productCode" value="777">
                         <input type="submit" value="Add to Cart">
                     </form></div>
                 </li>
-                <li><img src="image/product1.jpg" class = "imgClass"><div class="title">Phi $650.00
+                <li><img src="image/product2.jpg" class = "imgClass"><div class="title">Phi $650.00
                     <form action="cart" method="post"> 
                         <input type="hidden" name="productCode" value="888">
                         <input type="submit" value="Add to Cart">

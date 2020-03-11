@@ -1,0 +1,155 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 2, 2020, 2:06:01 PM
+    Author     : amt
+*/
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family:sans-serif;
+}
+
+h1
+{
+    margin-left: 40%;
+    color:white;
+    padding: 20px;
+}
+#thanks_h1_id
+{
+    margin-left: 34%;
+    color:white; 
+}
+label
+{
+    float:left;
+    width: 6em;
+    margin-bottom: 2em;
+    margin-left: 20%;
+    margin-top: 5%;
+    color: white;
+    
+    
+}
+#spanID
+{
+    float:left;
+    width: 6em;
+    margin-left: 20%;
+    margin-top: 5%;
+    color: white;
+    
+}
+#divID
+{
+     width:35%;
+    position: static;
+    border: 2px solid white;
+    margin-left: 30%;
+    padding: 5px;
+    border-radius: 25px;
+}
+#p_thanksID
+{
+    margin-left: 10%;
+    margin-top: 2%;
+    color: white;
+    font-size: 25px;
+}
+#inputID
+{
+    margin-top: 5%;
+/*    border-radius: 15px;*/
+}
+#thanks_submitID
+{
+    margin-left: 23%;
+    width:39%;
+}
+br
+{
+    clear: both;
+}
+#submit
+{
+    margin-top: 5%;
+    width:39%;
+    
+}
+#formID
+{
+    width:35%;
+    position: static;
+    border: 2px solid white;
+    margin-left: 30%;
+    padding: 5px;
+    border-radius: 25px;
+}
+table
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: 26%;
+    
+    
+}
+th,td 
+{
+    border: 2px solid black;
+    text-align: left;
+    color: black;
+    padding: .5em;
+    
+}
+.align_right
+{
+    text-align: right;
+}
+.menu-header
+{
+    background: rgb(0,100,0);
+    text-align: center;
+}
+.menu-header ul
+{
+    display:inline-flex;
+    list-style: none;
+    color:#fff;
+    
+}
+.menu-header ul li
+{
+    width: 210px;
+    margin: 15px;
+    padding: 15px;
+    font-size: 17px;
+}
+.menu-header ul li a
+{
+  text-decoration: none;
+  color:#fff;
+}
+.active, .menu-header ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+.orderPlace
+{
+    margin-left: 25.9%;
+    width: 815.9px;
+    margin-top: 10px;
+    
+}
