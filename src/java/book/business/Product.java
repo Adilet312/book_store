@@ -112,10 +112,12 @@ public class Product implements  Serializable
         NumberFormat currency = NumberFormat.getCurrencyInstance();
         return currency.format(this.getPrice());
     }
-    public String getImageUrl()
+    public String toString()
     {
-        String imageUrl = "/bookStore/images/" + this.code + "_product__img.jpg";
-        return imageUrl;
+        String output = "Code: " +this.code + ",Name: " + this.name 
+                      + ",Description:  " + this.description 
+                      + ", Price: " + this.price;
+        return output;
     }
 
  

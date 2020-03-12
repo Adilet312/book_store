@@ -50,3 +50,24 @@ body
     background: #2bab0d;
     border-radius: 3px;
 }
+.productClass
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: 32%;
+    
+    
+}
+th,td 
+{
+    border: 2px solid black;
+    text-align: left;
+    color: blue;
+    padding: .5em;
+    
+}
+.productDB
+{
+    text-align: center;
+    color: white;
+}

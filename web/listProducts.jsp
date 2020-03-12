@@ -14,15 +14,22 @@
         <title>products</title>
     </head>
     <body>
-        <h1>Products</h1>
-        <table>
+        <div class="menu-header">
+           <ul>
+                <li><a href="index.html">Home </a></li>
+                <li><a href="products.jsp">Products </a></li>
+                <li><a href="cart.jsp">Cart</a></li>
+                <li><a href="#">Register </a></li>
+           </ul>
+       </div>
+        <h1 class="productDB">Products are from Database</h1>
+        <table class="productClass">
             <tr>
                 <th>ProductId</th>
                 <th>Product Code</th>
                 <th>Product Name</th>
                 <th>Product Description</th>
                 <th>Product Price</th>
-                <th>&nbsp;</th>
             </tr>
             <c:forEach var="product" items="${products}">
                 <tr>
@@ -31,11 +38,6 @@
                     <td><c:out value="${product.name}"/></td>
                     <td><c:out value="${product.description}"/></td>
                     <td><c:out value="${product.price}"/></td>
-                    <td><form action="cart" method="post">
-                            <input type="hidden" name="productCode" value="${product.code}">
-                            <input type="submit" value="Add To Cart">
-                        </form>
-                    </td>
                 </tr>
             </c:forEach>
         </table>

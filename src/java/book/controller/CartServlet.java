@@ -58,9 +58,12 @@ public class CartServlet extends HttpServlet {
             LineItem lineItem = new LineItem();
             lineItem.setProduct(product);
             lineItem.setQuantity(quantity);
-            if (quantity > 0) {
+            if (quantity > 0) 
+            {
                 cart.addItem(lineItem);
-            } else if (quantity == 0) {
+            } 
+            else if (quantity == 0) 
+            {
                 cart.removeItem(lineItem);
             }
 
