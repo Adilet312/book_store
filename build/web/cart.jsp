@@ -1,4 +1,5 @@
 <%@page contentType="text/html" pageEncoding="utf-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,14 +8,7 @@
     <link rel="stylesheet" href="css/cart_style.css" type="text/css"/>
 </head>
 <body>
-       <div class="menu-header">
-           <ul>
-                <li><a href="index.html">Home </a></li>
-                <li><a href="products.jsp">Products </a></li>
-                <li><a href="cart.jsp">Cart</a></li>
-                <li><a href="#">Register </a></li>
-           </ul>
-       </div>
+    <c:import url="/includes/header.jsp" />
     <h1>Shopping Cart</h1>
     <table>
         <tr>
@@ -25,7 +19,7 @@
           <th>Amount</th>
           <th>&nbsp;</th>
         </tr>
-        <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+        
         <c:forEach var="item" items="${cart.items}">
           <tr>
             <td>

@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:import url="/includes/header.jsp" />
 <html>
     <head>
         <title>store</title>
@@ -9,18 +11,6 @@
     </head>
     <body>
         
-            <div class="menu-header">
-                    <ul>
-                        <li><a href="index.html">Home </a></li>
-                        <li><a href="products.jsp">Products </a></li>
-                        <li><a href="cart.jsp">Cart</a></li>
-                        <li><a href="#">Register </a></li>
-                    </ul>
-            </div>
-         <form action="listProducts" method="get" >
-                <input type="hidden" name="action" value="join">
-                <input type="submit" value="Show products" id="thanks_submitID">
-         </form>
             
     </body>
 </html>

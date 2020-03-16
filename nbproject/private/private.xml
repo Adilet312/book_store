@@ -3,11 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/amt/NetBeansProjects/book_store/web/listProducts.jsp</file>
+            <file>file:/home/amt/NetBeansProjects/book_store/src/java/book/controller/CartServlet.java</file>
+            <file>file:/home/amt/NetBeansProjects/book_store/src/java/book/business/Customer.java</file>
             <file>file:/home/amt/NetBeansProjects/book_store/web/products.jsp</file>
-            <file>file:/home/amt/NetBeansProjects/book_store/web/index.jsp</file>
+            <file>file:/home/amt/NetBeansProjects/book_store/src/java/book/controller/ProductServlet.java</file>
             <file>file:/home/amt/NetBeansProjects/book_store/web/index.html</file>
+            <file>file:/home/amt/NetBeansProjects/book_store/web/index.jsp</file>
             <file>file:/home/amt/NetBeansProjects/book_store/web/cart.jsp</file>
+            <file>file:/home/amt/NetBeansProjects/book_store/src/java/book/data/ProductDB.java</file>
+            <file>file:/home/amt/NetBeansProjects/book_store/web/includes/header.jsp</file>
+            <file>file:/home/amt/NetBeansProjects/book_store/web/customers.jsp</file>
         </group>
     </open-files>
 </project-private>
